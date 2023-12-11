@@ -1,0 +1,21 @@
+{
+  "name": "infr-icons",
+  "version": "1.0.0",
+  "description": "Infr File Icons",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --minify --format=esm --sourcemap=external --outfile=dist/infr-icons.js --loader:.html=text --loader:.svg=dataurl --loader:.png=dataurl",
+    "dev": "npm run build -- --watch",
+    "lint": "eslint --fix ."
+  },
+  "author": "INFR AI",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.19.9",
+    "eslint": "^8.55.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
