@@ -2,9 +2,13 @@
   "name": "infr-icons",
   "version": "1.0.0",
   "description": "Infr File Icons",
-  "main": "src/main.js",
+  "type": "module",
+  "exports": "./infr-icons.js",
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
-    "build": "esbuild src/main.js --bundle --minify --format=esm --sourcemap=external --outfile=dist/infr-icons.js --loader:.html=text --loader:.svg=dataurl --loader:.png=dataurl",
+    "build": "esbuild src/main.js --bundle --minify --format=esm --sourcemap=external --outfile=infr-icons.js --loader:.html=text --loader:.svg=dataurl --loader:.png=dataurl",
     "dev": "npm run build -- --watch",
     "lint": "eslint --fix .",
     "prepare": "husky install"

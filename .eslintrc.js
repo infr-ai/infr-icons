@@ -22,6 +22,6 @@ module.exports = {
   rules: {},
   ignorePatterns: [
     'node_modules',
-    'dist'
+    'infr-icons.js'
   ]
 }

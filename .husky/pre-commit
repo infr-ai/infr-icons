@@ -2,5 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npm run build
-git add dist/infr-icons.js
-git add dist/infr-icons.js.map
+git add infr-icons.js
+git add infr-icons.js.map
