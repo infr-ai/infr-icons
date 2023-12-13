@@ -5,6 +5,7 @@ import VideoIcon from 'vscode-icons/icons/file_type_video.svg'
 import WordIcon from 'vscode-icons/icons/file_type_word.svg'
 import PowerPointIcon from 'vscode-icons/icons/file_type_powerpoint.svg'
 import ExcelIcon from 'vscode-icons/icons/file_type_excel.svg'
+import PdfIcon from 'vscode-icons/icons/file_type_pdf2.svg'
 import FileIcon from 'vscode-icons/icons/default_file.svg'
 import FolderIcon from 'vscode-icons/icons/default_folder.svg'
 
@@ -35,6 +36,10 @@ export function fileIcon (fp) {
 
   if (has(['.xls', '.xlsx', '.xlsm', '.ods', '.fods', '.xlsb'], ext)) {
     return ExcelIcon
+  }
+
+  if (has(['.pdf'], ext)) {
+    return PdfIcon
   }
 
   return FileIcon
