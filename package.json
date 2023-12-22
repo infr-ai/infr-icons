@@ -1,6 +1,6 @@
 {
   "name": "infr-icons",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Infr File Icons",
   "type": "module",
   "exports": "./infr-icons.js",
