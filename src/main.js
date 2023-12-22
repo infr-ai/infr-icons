@@ -15,6 +15,11 @@ import NwdIcon from './png/nwd.png'
 import RevitIcon from './png/revit.png'
 import VbimIcon from './png/vbim.png'
 
+import JsIcon from 'vscode-icons/icons/file_type_js.svg'
+import ZipIcon from 'vscode-icons/icons/file_type_zip.svg'
+import JsonIcon from 'vscode-icons/icons/file_type_json.svg'
+import TxtIcon from 'vscode-icons/icons/file_type_text.svg'
+
 import FileIcon from 'vscode-icons/icons/default_file.svg'
 import FolderIcon from 'vscode-icons/icons/default_folder.svg'
 
@@ -77,6 +82,22 @@ export function fileIcon (fp) {
 
   if (has(['.vbim'], ext)) {
     return VbimIcon
+  }
+
+  if (has(['.js'], ext)) {
+    return JsIcon
+  }
+
+  if (has(['.zip'], ext)) {
+    return ZipIcon
+  }
+
+  if (has(['.json'], ext)) {
+    return JsonIcon
+  }
+
+  if (has(['.txt'], ext)) {
+    return TxtIcon
   }
 
   return FileIcon
