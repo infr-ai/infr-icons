@@ -14,6 +14,8 @@ import NwcIcon from './png/nwc.png'
 import NwdIcon from './png/nwd.png'
 import RevitIcon from './png/revit.png'
 import VbimIcon from './png/vbim.png'
+import DwgIcon from './png/dwg.png'
+import InsvIcon from './png/insv.png'
 
 import JsIcon from 'vscode-icons/icons/file_type_js.svg'
 import ZipIcon from 'vscode-icons/icons/file_type_zip.svg'
@@ -98,6 +100,14 @@ export function fileIcon (fp) {
 
   if (has(['.txt'], ext)) {
     return TxtIcon
+  }
+
+  if (has(['.dwg'], ext)) {
+    return DwgIcon
+  }
+
+  if (has(['.insv'], ext)) {
+    return InsvIcon
   }
 
   return FileIcon
