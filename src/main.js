@@ -23,7 +23,7 @@ import JsonIcon from './png/Json.png'
 import TxtIcon from './png/Text.png'
 
 import FileIcon from './png/File.png'
-import FolderIcon from './png/Folder.png'
+import FolderIcon from 'vscode-icons/icons/default_folder.svg'
 
 function has (array, value) {
   return array.indexOf(value) > -1
