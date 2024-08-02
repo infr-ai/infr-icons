@@ -1,12 +1,12 @@
 import path from 'path-browserify'
 
-import ImageIcon from 'vscode-icons/icons/file_type_image.svg'
-import VideoIcon from 'vscode-icons/icons/file_type_video.svg'
-import WordIcon from 'vscode-icons/icons/file_type_word.svg'
-import PowerPointIcon from 'vscode-icons/icons/file_type_powerpoint.svg'
-import ExcelIcon from 'vscode-icons/icons/file_type_excel.svg'
-import PdfIcon from 'vscode-icons/icons/file_type_pdf2.svg'
-import FbxIcon from 'vscode-icons/icons/file_type_fbx.svg'
+import ImageIcon from './png/Image.png'
+import VideoIcon from './png/Video.png'
+import WordIcon from './png/Word.png'
+import PowerPointIcon from './png/PPT.png'
+import ExcelIcon from './png/Excel.png'
+import PdfIcon from './png/PDF.png'
+import FbxIcon from './png/FBX.png'
 
 import IfcIcon from './png/ifc.png'
 import LasIcon from './png/las.png'
@@ -17,13 +17,13 @@ import VbimIcon from './png/vbim.png'
 import DwgIcon from './png/dwg.png'
 import InsvIcon from './png/insv.png'
 
-import JsIcon from 'vscode-icons/icons/file_type_js.svg'
-import ZipIcon from 'vscode-icons/icons/file_type_zip.svg'
-import JsonIcon from 'vscode-icons/icons/file_type_json.svg'
-import TxtIcon from 'vscode-icons/icons/file_type_text.svg'
+import JsIcon from './png/JS.png'
+import ZipIcon from './png/Zip.png'
+import JsonIcon from './png/Json.png'
+import TxtIcon from './png/Text.png'
 
-import FileIcon from 'vscode-icons/icons/default_file.svg'
-import FolderIcon from 'vscode-icons/icons/default_folder.svg'
+import FileIcon from './png/File.png'
+import FolderIcon from './png/Folder.png'
 
 function has (array, value) {
   return array.indexOf(value) > -1
