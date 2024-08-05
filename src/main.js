@@ -7,6 +7,7 @@ import PowerPointIcon from './png/PPT.png'
 import ExcelIcon from './png/Excel.png'
 import PdfIcon from './png/PDF.png'
 import FbxIcon from './png/FBX.png'
+import SKPIcon from './png/SKP.png'
 
 import IfcIcon from './png/ifc.png'
 import LasIcon from './png/las.png'
@@ -76,6 +77,10 @@ export function fileIcon (fp) {
 
   if (has(['.nwd'], ext)) {
     return NwdIcon
+  }
+
+  if (has(['.skp'], ext)) {
+    return SKPIcon
   }
 
   if (has(['.rvt'], ext)) {
