@@ -23,7 +23,7 @@ import ZipIcon from './png/file_zip.png'
 import JsonIcon from './png/file_json.png'
 import TxtIcon from './png/file_text.png'
 
-import FileIcon from './png/file.png'
+import FileIcon from './png/file_file.png'
 import FolderIcon from 'vscode-icons/icons/default_folder.svg'
 
 function has (array, value) {
