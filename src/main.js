@@ -22,6 +22,9 @@ import JsIcon from './png/file_js.png'
 import ZipIcon from './png/file_zip.png'
 import JsonIcon from './png/file_json.png'
 import TxtIcon from './png/file_text.png'
+import ThreeDMIcon from './png/3dm.png'
+import ThreeDSIcon from './png/3ds.png'
+import DgnIcon from './png/dgn.png'
 
 import FileIcon from './png/file_file.png'
 import FolderIcon from 'vscode-icons/icons/default_folder.svg'
@@ -113,6 +116,18 @@ export function fileIcon (fp) {
 
   if (has(['.insv'], ext)) {
     return InsvIcon
+  }
+
+  if (has(['.3dm'], ext)) {
+    return ThreeDMIcon
+  }
+
+  if (has(['.3ds'], ext)) {
+    return ThreeDSIcon
+  }
+
+  if (has(['.dgn'], ext)) {
+    return DgnIcon
   }
 
   return FileIcon
